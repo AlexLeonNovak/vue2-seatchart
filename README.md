@@ -9,11 +9,11 @@ Based on [omahili/seatchart.js](https://github.com/omahili/seatchart.js)
 ## Install
 ### Npm
 ```bash
-npm install vue3-seatchart
+npm install vue2-seatchart
 ```
 ### Yarn
 ```bash
-yarn add vue3-seatchart
+yarn add vue2-seatchart
 ```
 ## Usage
 Import SeatChart and add options:
@@ -88,7 +88,7 @@ app.mount('#app')
 ```vue
 <script setup lang="ts">
 import { ref } from 'vue';
-import { SeatChart } from 'vue3-seatchart';
+import { SeatChart } from 'vue2-seatchart';
 import type { Options, SubmitEvent } from 'seatchart';
 import 'seatchart/dist/seatchart.min.css';
 
