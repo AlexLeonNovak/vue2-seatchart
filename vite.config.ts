@@ -6,6 +6,10 @@ import vue2 from '@vitejs/plugin-vue2'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/vue2-seatchart/",
+  build: {
+    outDir: "docs",
+  },
   plugins: [
     vue2(),
     legacy({
