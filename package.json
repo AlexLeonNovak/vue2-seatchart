@@ -1,6 +1,6 @@
 {
   "name": "vue2-seatchart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "homepage": "https://github.com/AlexLeonNovak/vue2-seatchart",
   "author": {
@@ -40,9 +40,6 @@
   },
   "peerDependencies": {
     "vue": "^2.7"
-  },
-  "optionalDependencies": {
-    "vue-router": "^3.5.4"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
